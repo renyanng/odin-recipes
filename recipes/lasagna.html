@@ -3,17 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <title>Lasagna</title>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <h1>Lasagna</h1>
+        <div class="recipe-container">
+        <h1 class="recipe-title"> Lasagna</h1>
         
-        <img src="./images/lasagna.png" alt="Delicious lasagna" width="300">
+        <img src="./images/lasagna.png" alt="Delicious lasagna" width="300" class="recipe-image">
         
-        <h2>Description</h2>
-        <p>A classic Italian dish with layers of pasta, meat sauce, and cheese.</p>
+        <h2 class="recipe-subtitle">Description</h2>
+        <p class="recipe-description">A classic Italian dish with layers of pasta, meat sauce, and cheese.</p>
         
-        <h2>Ingredients</h2>
-        <ul>
+        <h2 class="recipe-subtitle">Ingredients</h2>
+        <ul class="recipe-list">
             <li>1 pound ground beef</li>
             <li>1 jar (24 oz) marinara sauce</li>
             <li>9 lasagna noodles</li>
@@ -23,22 +25,24 @@
             <li>1 egg</li>
             <li>Salt and pepper to taste</li>
         </ul>
-        
-        <h2>Steps</h2>
-        <ol>
-            <li>Preheat oven to 375°F (190°C).</li>
-            <li>Cook lasagna noodles according to package directions.</li>
-            <li>In a skillet, brown the ground beef and mix with marinara sauce.</li>
-            <li>In a bowl, mix ricotta, 1 cup mozzarella, Parmesan, egg, salt, and pepper.</li>
-            <li>In a 9x13 inch baking dish, layer: sauce, noodles, ricotta mixture. Repeat layers.</li>
-            <li>Top with remaining sauce and mozzarella cheese.</li>
-            <li>Bake for 25 minutes or until cheese is melted and bubbly.</li>
-            <li>Let stand for 10 minutes before serving.</li>
-        </ol>
-        
+        <div class="recipe-section">
+            <h2 class="recipe-subtitle">Steps</h2>
+            <ol class="recipe-list">
+                <li>Preheat oven to 375°F (190°C).</li>
+                <li>Cook lasagna noodles according to package directions.</li>
+                <li>In a skillet, brown the ground beef and mix with marinara sauce.</li>
+                <li>In a bowl, mix ricotta, 1 cup mozzarella, Parmesan, egg, salt, and pepper.</li>
+                <li>In a 9x13 inch baking dish, layer: sauce, noodles, ricotta mixture. Repeat layers.</li>
+                <li>Top with remaining sauce and mozzarella cheese.</li>
+                <li>Bake for 25 minutes or until cheese is melted and bubbly.</li>
+                <li>Let stand for 10 minutes before serving.</li>
+            </ol>
+        </div>
     </body>
 
-    <p>
-        <a href="../index.html">Home</a>
-    </p>
+    <div class="recipe-footer">
+        <p>
+            <a href="../index.html">Home</a>
+        </p>
+    </div>
 </html>

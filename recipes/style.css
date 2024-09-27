@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFF3E0; /* Light orange background */
+}
+
+#recipe-header {
+    background-color: #FFFAF0; /* Floral white */
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.recipe-container {
+    background-color: #FFFAF0; /* Floral white */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.recipe-title {
+    color: #FFFFFF; /* White text */
+    background-color: #D35400; /* Dark orange */
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; /* Removed underline */
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin-top: 0;
+    border-radius: 5px;
+}
+
+.recipe-image {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.recipe-subtitle {
+    color: #FFFFFF; /* White text */
+    background-color: #F39C12; /* Orange */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; /* Removed underline */
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.recipe-section {
+    margin-bottom: 30px;
+}
+
+.recipe-list {
+    padding-left: 30px;
+    color: #6E2C00; /* Dark brown text */
+}
+
+.recipe-list li {
+    margin-bottom: 10px;
+}
+
+.recipe-note {
+    font-style: italic;
+    text-align: center;
+    margin-top: 30px;
+    color: #D35400; /* Dark orange */
+}
+
+.recipe-footer {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    font-family: Helvetica, sans-serif;
+    color: #685041; /* Dark orange */
+}
+
+.recipe-list {
+    text-align: left;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #985e37; /* Dark orange */
+}
+
+
